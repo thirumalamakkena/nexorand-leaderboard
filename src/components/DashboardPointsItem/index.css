@@ -1,0 +1,46 @@
+.points-container{
+    display: flex;
+    list-style-type: none;
+    padding-right: 20px;
+    background-color: #f3f4f6; 
+    transition: background-color 0.3s ease;
+    padding-left: 20px;
+    border-bottom: 1px solid #d1d5db;
+  }
+  
+  .points-container:hover{
+    background-color: #e5e7eb;
+  }
+  
+  
+  .points{
+    text-align: right;
+    flex-grow: 1;
+  }
+  
+  .point-container-rank{
+    display: flex;
+    align-items: center;
+    line-height: 10px;
+    width: 50%;
+  }
+  
+  .price {
+    color: orange;
+    margin-right: 10px;
+    text-align: left;
+  }
+  
+  .person-icon{
+    margin-right: 20px;
+  }
+  
+  .claim-points-btn{
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 15px;
+    padding: 0px;
+    line-height: 0px;
+  }

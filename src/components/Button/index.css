@@ -1,0 +1,16 @@
+.w-m-d-reports-btn{
+    background-color: #e5e7eb;
+    border: none;
+    color: #949aa9;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin-left:  8px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.change-report{
+    background-color: #f79c67;
+    color: white;
+}

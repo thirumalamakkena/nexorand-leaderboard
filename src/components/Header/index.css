@@ -1,0 +1,58 @@
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 60px;
+    background-color: #000;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.nav-options{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.option{
+    margin-right: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.user-info-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.user-fname{
+    line-height: 6px;
+    color: #fff;
+    font-size: 12px;
+    text-align: right;
+}
+
+.user-points{
+    line-height: 6px;
+    color: #fff;
+    font-size: 12px;
+    text-align: right;
+}
+.user-email{
+    line-height: 6px;
+    color: #fff;
+    font-size: 12px;
+    text-align: right;
+}
+
+.logout-btn{
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
